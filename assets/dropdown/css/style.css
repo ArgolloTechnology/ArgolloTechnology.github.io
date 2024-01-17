@@ -12,7 +12,7 @@
     transition: margin 0.3s ease-in-out;
     vertical-align: middle; }
     .navbar-dropdown .navbar-logo img {
-      height: 3.125rem;
+      height: 6.125rem;
       transition: all 0.3s ease-in-out; }
     .navbar-dropdown .navbar-logo.mbr-iconfont {
       font-size: 3.125rem;
@@ -43,7 +43,7 @@
   .navbar-dropdown.navbar-short .navbar-logo {
     margin-right: 0.5rem; }
     .navbar-dropdown.navbar-short .navbar-logo img {
-      height: 2.375rem; }
+      height: 6.125rem; }
     .navbar-dropdown.navbar-short .navbar-logo.mbr-iconfont {
       font-size: 2.375rem;
       line-height: 2.375rem; }
