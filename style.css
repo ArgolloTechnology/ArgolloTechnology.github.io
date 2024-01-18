@@ -1,0 +1,25 @@
+/* Estilo para o corpo da página */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Estilo para a barra de navegação */
+.navbar {
+  background-color: #333; /* Cor de fundo da barra de navegação */
+  color: #fff; /* Cor do texto na barra de navegação */
+  padding: 15px; /* Espaçamento interno da barra de navegação */
+  position: fixed; /* Torna a barra de navegação fixa */
+  width: 100%; /* Ocupa toda a largura da tela */
+  top: 0; /* Fixa a barra no topo da página */
+  z-index: 1000; /* Define a ordem de empilhamento para garantir que a barra esteja acima de outros elementos */
+  display: flex;
+}
+
+/* Estilo para o conteúdo da página para evitar sobreposição com a barra de navegação */
+.content {
+  margin-top: 70px; /* Margem superior igual à altura da barra de navegação */
+  padding: 20px;
+}
+
+/* Adicione mais estilos conforme necessário */
